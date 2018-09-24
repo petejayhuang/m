@@ -1,0 +1,16 @@
+const URLS = {
+  api: 'https://guarded-thicket-22918.herokuapp.com'
+}
+
+const USER_LIST_DROPDOWN_LIMITS = ['25', '20', '15', '10', '5']
+
+const ACCESS_TOKEN_EXPIRY = '2m'
+
+const CHECK_ACCESS_TOKEN_VALID_FREQ_SECONDS = 10000
+
+export {
+  URLS,
+  USER_LIST_DROPDOWN_LIMITS,
+  ACCESS_TOKEN_EXPIRY,
+  CHECK_ACCESS_TOKEN_VALID_FREQ_SECONDS
+}
